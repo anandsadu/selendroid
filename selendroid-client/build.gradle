@@ -1,0 +1,7 @@
+
+description = 'selendroid-client'
+dependencies {
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:'2.45.0'
+  compile project(':selendroid-common')
+  compile project(':selendroid-server-common')
+}
